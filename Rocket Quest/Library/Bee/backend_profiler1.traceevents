@@ -1,0 +1,506 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1702982301379900, "dur":921, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702982301380825, "dur":613, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1702982301381444, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1702982301381457, "dur":139, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1702982301381604, "dur":348, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702982301381952, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702982301411154, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702982301411160, "dur":0, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702982301411161, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702982301411165, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702982301411166, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702982301411169, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702982301411181, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702982301411184, "dur":0, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702982301411184, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702982301411187, "dur":0, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702982301411187, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702982301411190, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702982301411195, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702982301411198, "dur":0, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702982301411198, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702982301411200, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702982301411209, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702982301411216, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702982301411217, "dur":1212, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1702982301381511, "dur":448, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301381960, "dur":1834, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301383795, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1702982301383797, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301384161, "dur":197, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1702982301384360, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1702982301384372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301384741, "dur":518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1702982301385259, "dur":508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1702982301385768, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301386007, "dur":285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1702982301386295, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1702982301386301, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301386371, "dur":221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1702982301386597, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301386665, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301386754, "dur":186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301386943, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301387179, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301387182, "dur":192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301387376, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301387610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301387613, "dur":198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301387813, "dur":1797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301389612, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301389615, "dur":182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301389800, "dur":1831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301391818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301391821, "dur":442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301392274, "dur":888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301393164, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301393167, "dur":434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301393605, "dur":1315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301394921, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301394924, "dur":212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301395138, "dur":922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301396061, "dur":45, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301396348, "dur":605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301396957, "dur":722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301397681, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301397684, "dur":308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301397996, "dur":6655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301404653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301404656, "dur":493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301405152, "dur":667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301405820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301405823, "dur":412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301406238, "dur":432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301406696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301406703, "dur":684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301407391, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301407528, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301407691, "dur":329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301408023, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301408028, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301408052, "dur":312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702982301408367, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1702982301408372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301408375, "dur":491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1702982301408871, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1702982301408876, "dur":34, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301409011, "dur":708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1702982301409722, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1702982301409775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301409779, "dur":471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1702982301410317, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1702982301410339, "dur":29, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702982301410723, "dur":317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1702982301411043, "dur":97, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702982301381526, "dur":440, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702982301381967, "dur":1845, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702982301383812, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1702982301384266, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702982301384387, "dur":643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1702982301385042, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1702982301385056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702982301385325, "dur":282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1702982301385611, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1702982301385616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702982301385620, "dur":324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1702982301386028, "dur":3571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1702982301389601, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702982301389603, "dur":174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1702982301389780, "dur":2213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702982301391994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702982301391997, "dur":296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702982301392298, "dur":525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702982301392825, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702982301392827, "dur":348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702982301393179, "dur":992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702982301394173, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702982301394176, "dur":459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702982301394664, "dur":1065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702982301395731, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702982301395733, "dur":369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702982301396169, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702982301396264, "dur":47, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702982301396511, "dur":286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702982301396800, "dur":962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702982301397764, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702982301397766, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702982301398677, "dur":979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702982301399657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702982301399660, "dur":2705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702982301402489, "dur":1939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702982301404429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702982301404432, "dur":306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702982301404744, "dur":574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702982301405320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702982301405333, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702982301406126, "dur":669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702982301406797, "dur":35, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702982301406871, "dur":531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702982301407481, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702982301407718, "dur":44, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702982301407855, "dur":409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702982301408268, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1702982301408275, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702982301408305, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1702982301409230, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1702982301409615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702982301409618, "dur":519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1702982301410216, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1702982301410262, "dur":24, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702982301410319, "dur":475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1702982301410870, "dur":265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702982301381547, "dur":427, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702982301381974, "dur":1822, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702982301383801, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1702982301383876, "dur":41, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702982301385223, "dur":305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1702982301385545, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1702982301385551, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702982301385572, "dur":350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1702982301386014, "dur":6383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301392398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702982301392407, "dur":276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301392688, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301392845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702982301392848, "dur":672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301393525, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/DOTween.Modules.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301394009, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702982301394012, "dur":337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/DOTween.Modules.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301394352, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301394357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702982301394360, "dur":422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301394847, "dur":1943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301396792, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702982301396795, "dur":318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301397117, "dur":816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301397934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702982301397937, "dur":753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301398806, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301398813, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702982301398815, "dur":290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301399109, "dur":824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301399935, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702982301399938, "dur":309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301400251, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301400256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702982301400259, "dur":2176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301402561, "dur":1440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301404005, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702982301404023, "dur":372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301404399, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301404753, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702982301404808, "dur":511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301405356, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301405399, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702982301405402, "dur":611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301406046, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301406281, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702982301406284, "dur":499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301406789, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301407079, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702982301407082, "dur":446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301407617, "dur":1435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301409053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702982301409056, "dur":337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702982301409397, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1702982301409401, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702982301409403, "dur":534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1702982301410096, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1702982301410179, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702982301410304, "dur":457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1702982301410829, "dur":326, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301381570, "dur":410, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301381980, "dur":1817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301383798, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1702982301383860, "dur":39, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301384758, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1702982301385404, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1702982301385704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301385811, "dur":340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1702982301386155, "dur":2669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest.exe" }}
+,{ "pid":12345, "tid":4, "ts":1702982301388826, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301388828, "dur":203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest.exe" }}
+,{ "pid":12345, "tid":4, "ts":1702982301389033, "dur":1247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301390282, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301390285, "dur":283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301390571, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301390577, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301390580, "dur":272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301390856, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301390861, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301390863, "dur":233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301391101, "dur":1069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301392171, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301392174, "dur":284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301392462, "dur":958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301393421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301393424, "dur":383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301393812, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301393945, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301393947, "dur":269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301394220, "dur":3901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301398123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301398126, "dur":482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301398673, "dur":1336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301400010, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301400013, "dur":2093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301402437, "dur":2350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301404788, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301404806, "dur":560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301405423, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301405430, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301405433, "dur":592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301406044, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301406277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301406280, "dur":321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301406604, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301406732, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301406734, "dur":283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301407020, "dur":505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301407526, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301407705, "dur":356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301408064, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301408426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301408429, "dur":439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702982301408872, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1702982301408877, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301408900, "dur":656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1702982301409564, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1702982301409572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301409577, "dur":555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1702982301410209, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1702982301410257, "dur":23, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702982301410283, "dur":482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1702982301410836, "dur":322, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301381574, "dur":409, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301381983, "dur":1820, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301383804, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1702982301383904, "dur":32, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301384327, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1702982301385076, "dur":737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1702982301385814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301386029, "dur":291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1702982301386324, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1702982301386359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301386433, "dur":253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1702982301386693, "dur":1636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301388349, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301388352, "dur":200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301388555, "dur":1753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301390310, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301390313, "dur":258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301390574, "dur":2377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301392973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301392976, "dur":420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301393399, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301393753, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301393756, "dur":305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301394065, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301394070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301394073, "dur":662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301394775, "dur":1274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301396051, "dur":28, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301396319, "dur":252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301396576, "dur":1273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301397850, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301397853, "dur":212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301398068, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301398291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301398294, "dur":329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301398680, "dur":1586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301400268, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301400270, "dur":2228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301402573, "dur":1188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301403762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301403765, "dur":546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301404315, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301404641, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301404644, "dur":312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301404961, "dur":625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301405587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301405590, "dur":474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301406075, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301406085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301406091, "dur":331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301406425, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301406685, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301406688, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301407554, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301407623, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301407682, "dur":394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301408080, "dur":1526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301409607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301409732, "dur":398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702982301410205, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1702982301410251, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702982301410375, "dur":529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1702982301410907, "dur":229, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702982301381581, "dur":406, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702982301381987, "dur":1818, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702982301383805, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1702982301383914, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702982301384325, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1702982301385384, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1702982301385420, "dur":33, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702982301385502, "dur":288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1702982301385861, "dur":1490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301387353, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702982301387422, "dur":193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301387622, "dur":805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301388429, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702982301388432, "dur":222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301388657, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301388664, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702982301388667, "dur":181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301388852, "dur":1257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301390111, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702982301390133, "dur":225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301390362, "dur":1264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301391815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702982301391819, "dur":270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301392092, "dur":3545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301395638, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702982301395670, "dur":466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301396233, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301396317, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702982301396516, "dur":583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301397103, "dur":1172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301398277, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702982301398279, "dur":347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301398670, "dur":1285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301399957, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702982301399960, "dur":2311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301402442, "dur":1371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301403815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702982301403817, "dur":395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301404233, "dur":801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301405036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702982301405042, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301405843, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301406217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702982301406223, "dur":361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301406587, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301406815, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702982301406869, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301407633, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301408135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702982301408138, "dur":588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702982301408731, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1702982301408737, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702982301408739, "dur":397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1702982301409170, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1702982301409176, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702982301409178, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1702982301410198, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702982301410254, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702982301410284, "dur":507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702982301410866, "dur":293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301381597, "dur":395, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301381992, "dur":1813, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301383806, "dur":481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1702982301384289, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301384303, "dur":424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1702982301384733, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1702982301384739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301384927, "dur":388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1702982301385396, "dur":448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1702982301385846, "dur":35, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301386125, "dur":269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1702982301386400, "dur":642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301387044, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301387050, "dur":178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301387231, "dur":1591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301388823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301388826, "dur":195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301389024, "dur":1607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301390633, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301390636, "dur":268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301390908, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301390913, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301390915, "dur":401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301391319, "dur":1604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301392925, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301392928, "dur":531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301393463, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301393807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301393811, "dur":365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301394180, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301394185, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301394188, "dur":523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301394782, "dur":1148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301395932, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301395934, "dur":395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301396390, "dur":1479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301397871, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301397874, "dur":354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301398232, "dur":5287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301403520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301403524, "dur":496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301404030, "dur":583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301404616, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301404623, "dur":508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301405137, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301405160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301405216, "dur":369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301405589, "dur":573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301406163, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301406166, "dur":371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301406541, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301406545, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301406548, "dur":230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301406782, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301407239, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301407242, "dur":529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301407836, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301408058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301408064, "dur":578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702982301408645, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1702982301408651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301408654, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1702982301409446, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1702982301409467, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301409469, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1702982301410301, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":7, "ts":1702982301410357, "dur":24, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702982301410749, "dur":365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":7, "ts":1702982301411119, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1702982301411119, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702982301381601, "dur":395, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702982301381996, "dur":1814, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702982301383811, "dur":443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1702982301384257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702982301384304, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1702982301385347, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1702982301385393, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702982301385502, "dur":470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1702982301386040, "dur":18308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702982301404350, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702982301404352, "dur":384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702982301404741, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702982301404813, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702982301404816, "dur":436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702982301405266, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702982301405285, "dur":26, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702982301405427, "dur":628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702982301406058, "dur":607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702982301406686, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702982301406689, "dur":282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702982301406975, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702982301406982, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702982301406984, "dur":527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702982301407523, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702982301407710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702982301407813, "dur":585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702982301408402, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1702982301408407, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702982301408410, "dur":542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1702982301408992, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1702982301409025, "dur":40, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702982301409068, "dur":649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1702982301409720, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/janx/Desktop/build win/Rocket Quest_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1702982301409725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702982301409855, "dur":511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/janx/Desktop/build win/Rocket Quest_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1702982301410614, "dur":537, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702982301412968, "dur":603, "ph":"X", "name": "ProfilerWriteOutput" }
+,
